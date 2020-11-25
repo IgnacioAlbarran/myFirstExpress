@@ -1,0 +1,19 @@
+{{ appName }}
+{{#if usuarios.length}}
+{{#each usuarios}}
+{{id}}: {{name}},
+{{/each}}
+{{else}}
+No hay usuarios.
+{{/if}}
+
+{{#with administrador}}
+Nombre: {{nombre}}, Apellidos: {{apellidos}}
+{{else}}
+No existe el administrador
+{{/with}}
+
+{{> partial }}
+
+<!-- aparece en la consola de node js -->
+{{log "Prueba del Log"}}

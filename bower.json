@@ -1,0 +1,21 @@
+{
+  "name": "myfirstexpress",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ignacio Albarrán <ignacioalbarran851@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
